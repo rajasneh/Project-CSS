@@ -137,9 +137,9 @@ hr{
 .card-container{
     display: grid;
     /* grid-template-columns: auto auto auto; */
-    margin-right: 29vh;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-    gap: 10px;
+    margin-right: 14vw;
+    grid-template-columns: repeat(auto-fill, minmax(50vh, 1fr));
+    gap: 1.8vw;
 }
 .thumbnail img{
     padding-top: 0.5rem;
@@ -182,6 +182,10 @@ hr{
     .content{
         position: absolute;
         left: 0;
+    }
+    .card-container{
+        margin-left: 10vw;
+        
     }
 }
 @media(max-width:603px){
